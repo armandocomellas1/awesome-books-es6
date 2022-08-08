@@ -1,8 +1,8 @@
 //This is the main index.js which will import the modules
-import { InterfaceUser } from './modules/display';
-import { Library } from './modules/Library';
-import { loadColor } from './modules/color';
-import { DateTime } from './modules/luxon';
+import { InterfaceUser } from '../modules/display';
+import { Library } from '../modules/Library';
+import { loadColor } from '../modules/color';
+import { DateTime } from '../modules/luxon';
 
 document.addEventListener('DOMContentLoaded', InterfaceUser.displayBooks);
 
