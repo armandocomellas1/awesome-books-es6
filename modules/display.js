@@ -1,5 +1,5 @@
 //Contains the class for ading books
-class InterfaceUser {
+export class InterfaceUser {
   static displayBooks() {
     const books = [
       {
@@ -94,5 +94,3 @@ class InterfaceUser {
     document.getElementById('author').value = '';
   }
 }
-
-export { InterfaceUser };
