@@ -1,5 +1,5 @@
 //Contains the class for ading books
-export class InterfaceUser {
+export default class InterfaceUser {
   static displayBooks() {
     const books = [
       {

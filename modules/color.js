@@ -1,5 +1,5 @@
 //Contains the arrow function to ser the zebra colors in the interfgace UI
-export const loadColor = () => {
+  const loadColor = () => {
   const changeColors = document.getElementsByClassName('book');
   for (let l = 0; l < changeColors.length; l++) {
     if (l % 2 === 0) {
@@ -9,3 +9,5 @@ export const loadColor = () => {
     }
   }
 };
+
+export default loadColor();
