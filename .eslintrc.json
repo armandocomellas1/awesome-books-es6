@@ -1,0 +1,25 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true,
+        "es6": true,
+        "jest": true
+    },
+    "extends": [
+        "eslint:recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+    },
+    "ignorePatterns": [
+        "dist/",
+        "build/",
+        "luxon.js"
+    ]
+}
