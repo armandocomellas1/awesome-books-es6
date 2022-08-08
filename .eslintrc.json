@@ -1,21 +1,25 @@
 {
     "env": {
         "browser": true,
-        "commonjs": true,
-        "es2021": true,
         "es6": true,
         "jest": true
     },
+    "parser": "babel-eslint",
     "extends": [
         "eslint:recommended"
     ],
     "parserOptions": {
         "ecmaFeatures": {
-            "jsx": true
+            "jsx": true,
+            "modules": true
         },
-        "ecmaVersion": "latest"
+        "ecmaVersion": 2018,
+        "sourceType": "module"
     },
     "rules": {
+        "no-shadow": "off",
+        "no-param-reassign": "off",
+        "eol-last": "off"
     },
     "ignorePatterns": [
         "dist/",
