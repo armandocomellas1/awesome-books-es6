@@ -5,4 +5,4 @@ function Library(title, author, countElemt) {
   this.countElemt = `elem_${countElemt}`;
 }
 
-module.exports = Library;
+export default Library;
