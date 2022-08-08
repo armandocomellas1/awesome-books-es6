@@ -37,6 +37,8 @@ document.getElementById('books__add').addEventListener('submit', (e) => {
 
 document.getElementById('book_list').addEventListener('click', (e) => {
   InterfaceUser.deleteBook(e.target);
+  const validcheck = JSON.parse(localStorage.getItem('List'));
+  localStorage.setItem('List', JSON.stringify(validcheck));
 });
 
 document.getElementById('add').addEventListener('click', loadColor);
