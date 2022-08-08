@@ -1,3 +1,4 @@
+//Contains the arrow function to ser the zebra colors in the interfgace UI
 const loadColor = () => {
   const changeColors = document.getElementsByClassName('book');
   for (let l = 0; l < changeColors.length; l++) {
