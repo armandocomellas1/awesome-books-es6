@@ -1,7 +1,13 @@
-import { InterfaceUser } from './modules/display.js';
-import { Library } from './modules/Library.js';
-import { loadColor } from './modules/color.js';
+//This is the main index.js which will import the modules
+import InterfaceUser from './modules/display.js';
+import loadColor from './modules/color.js';
 import { DateTime } from './modules/luxon.js';
+
+function Library(title, author, countElemt) {
+  this.title = title;
+  this.author = author;
+  this.countElemt = `elem_${countElemt}`;
+}
 
 document.addEventListener('DOMContentLoaded', InterfaceUser.displayBooks);
 
@@ -31,6 +37,8 @@ document.getElementById('books__add').addEventListener('submit', (e) => {
 
 document.getElementById('book_list').addEventListener('click', (e) => {
   InterfaceUser.deleteBook(e.target);
+  const validcheck = JSON.parse(localStorage.getItem('List'));
+  localStorage.setItem('List', JSON.stringify(validcheck));
 });
 
 document.getElementById('add').addEventListener('click', loadColor);

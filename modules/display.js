@@ -1,4 +1,5 @@
-class InterfaceUser {
+//Contains the class for ading books
+export default class InterfaceUser {
   static displayBooks() {
     const books = [
       {
@@ -93,5 +94,3 @@ class InterfaceUser {
     document.getElementById('author').value = '';
   }
 }
-
-export { InterfaceUser };
