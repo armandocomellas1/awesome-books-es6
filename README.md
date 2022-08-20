@@ -19,6 +19,11 @@
 
 To get the content of this project locally you need to run the following commands in your terminal.
 
+### Description of the project:
+
+- This is a collectino of what ever book you must like.
+- The purpose of this project is to show the interactivity with the UI buttons, adding and removing element.
+
 ### Prerequisites
 - IDE(code editor) like: **Vscode**, **Sublime**, etc.
 - [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
