@@ -21,7 +21,7 @@ To get the content of this project locally you need to run the following command
 
 ## Description of the project:
 
-- This is a collectino of what ever book you must like.
+- This is a collection of what ever book you must like.
 - The purpose of this project is to show the interactivity with the UI buttons, adding and removing element.
 
 ### Prerequisites
