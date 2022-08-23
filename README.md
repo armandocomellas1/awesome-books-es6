@@ -10,10 +10,10 @@
 
 ## Built With
 
-- HTML
+- HTML5
 - CSS
-- JAVASCRIPT in ES6 way
-- (Used Lighthouse, Webhint, Stylelint and ESlint as linters)
+- JavaScript in ES6 way
+- Used Lighthouse, Webhint, Stylelint and ESlint as linters
 
 ## Getting Started
 
