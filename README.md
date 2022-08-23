@@ -8,11 +8,11 @@
 - Use npm as software packages system.
 - How to add external library suchg as Luxon
 
-## Built With
+## List of technologies
 
 - HTML5
 - CSS
-- JavaScript in ES6 way
+- Flexbox and CSS Grid in order to make a structure in the HTML and look nice.
 - Used Lighthouse, Webhint, Stylelint and ESlint as linters
 
 ## Getting Started
