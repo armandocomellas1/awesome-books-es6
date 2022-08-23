@@ -40,7 +40,7 @@ To get the content of this project locally you need to run the following command
 - Feel free to clone the repository at this URL: https://github.com/robinbenitezmora/Awesome_Books
 
 ### Usage
-- Make changes to javascript and HTML5 files then submit pull requests
+- Make changes to JavaScript and HTML5 files then submit pull requests
 
 ### Run tests
 - You can use a live server to run the tests
